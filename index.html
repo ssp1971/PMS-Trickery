@@ -1,14 +1,40 @@
 <style>
-  @font-face {
+  <style>
+@font-face {
     font-family: 'Corporate A BQ Light';
     src: url('https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/fonts/CorporateA-BQLight.woff2') format('woff2'),
          url('https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/fonts/CorporateA-BQLight.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 body, table {
     font-family: 'Corporate A BQ Light', sans-serif;
+    color: #00CDD9; /* Sets all table text to white */
+    background-color: #f9fcfc; /* Sets table background to black */
 }
+
+th {
+    background-color: #444; /* Dark gray background for headers */
+    color: #00FFFF; /* Cyan text color for headers */
+    padding: 12px;
+    border: 1px solid #000000; /* Cyan border */
+}
+
+td {
+    background-color: #111; /* Darker gray for table rows */
+    color: #FFFFFF; /* White text for data cells */
+    padding: 12px;
+    border: 1px solid #555; /* Slightly lighter border */
+}
+
+tr:nth-child(even) {
+    background-color: #222; /* Lighter gray for even rows */
+}
+
+</style>
+
+
 
 </style>
 
